@@ -1,6 +1,6 @@
 # Front-End: Projetos
 
-<b>Este repositório mostra o meu progresso nos primeros 06 meses do curso de Desenvolvimento Web Full Stack realizado na Kenzie Academy Brasil. Ele funcionará como um diário e nenhum código será refeito mesmo depois que algo novo seja aprendido.</b>
+<b>Este repositório mostra o meu progresso no curso de Development Web Full Stack realizado na Kenzie Academy Brasil. Ele funcionará como um diário e nenhum código será refeito mesmo depois que algo novo seja aprendido.</b>
 
 <hr/>
 
