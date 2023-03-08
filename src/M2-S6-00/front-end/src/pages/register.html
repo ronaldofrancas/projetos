@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/register.css">
+    <link rel="stylesheet" href="../styles/toast.css">
+
+    <script type="module" src="../scripts/register.js" defer></script>
+    <title>Register</title>
+  </head>
+  <body>
+    <main class="main__container">
+      <section class="container__left">
+        <div class="content__header">
+          <h2>Cadastro</h2>
+          <button class="return__login">Voltar para o login</button>
+        </div>
+        <form class="form__container">
+          <label for="user">Usuário</label>
+          <input type="text" id="user" name="user" placeholder="Digite seu usuário aqui...">
+          <label for="email">Email</label>
+          <input id="email" type="email" name="email" placeholder="Digite seu email aqui...">
+          <label for="photo">Link da foto do perfil</label>
+          <input type="text" id="photo" name="photo" placeholder="Insira o link da foto aqui...">
+          <label for="password">Senha</label>
+          <input id="password" type="password" name="password" placeholder="Digite sua senha aqui...">
+          <input type="submit" id="submit" value="Cadastrar" />
+        </form>
+        <button class="back__login">Voltar para o login</button>
+      </section>
+      <section class="container__right">
+        <h2>Petinfo</h2>
+        <h2>Ooooooba!</h2>
+        <p>
+          Agora vamos poder contribuir para o bem estar do seu pet por meio do
+          conhecimento
+        </p>
+        <img src="../assets/img-register.svg" alt="Pets">
+      </section>
+    </main>
+    <div class="toast">
+      <div class="toast__title">
+        <img src="../assets/checkmark.svg" alt="Check">
+        <p>Sua conta foi criada com sucesso!</p>
+      </div>
+      <p>
+        Agora você pode acessar os conteúdos utilizando seu usuário e senha na
+        página de login: <a href="../index.html">Acessar página de login</a>
+      </p>
+    </div>
+  </body>
+</html>

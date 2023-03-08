@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/dashboard.css">
+    <link rel="stylesheet" href="../styles/toast.css">
+
+    <script type="module" src="../scripts/dashboard.js" defer></script>
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <header class="header__container">
+      <div class="header__content">
+        <h1>PetInfo</h1>
+        <div class="content__user">
+          <button class="new__post--button">Criar Publicação</button>
+          <button class="menu__dropdown">
+            <img src="" alt="Foto do Usuário"
+              id="menu__dropdown--img">
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="section__title">
+        <h2>Feed</h2>
+      </div>
+      <section class="posts__container"></section>
+    </main>
+    <dialog id="modalController"></dialog>
+    <div class="toast">
+      <div class="toast__title">
+        <img src="../assets/checkmark.svg" alt="Check">
+        <p>Post deletado com sucesso!</p>
+      </div>
+      <p>
+        O post selecionado para exclusão foi deletado, a partir de agora não
+        aparecerá no seu feed
+      </p>
+    </div>
+  </body>
+</html>
